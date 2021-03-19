@@ -1,0 +1,28 @@
+.inputtext {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-color: #454545;
+    background-color: rgb(102, 101, 101);
+    box-sizing: border-box;
+}
+
+.div {
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.submitted {
+    color: green;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}

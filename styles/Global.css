@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+body {
+    background: #2F3136;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito";
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 10px auto 80px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin-left: 12px;
+    background: -webkit-linear-gradient(#C8323B, #FA0ED2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .logo {
+    margin-right: auto;
+    background: -webkit-linear-gradient(#C8323B, #FA0ED2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    color: #000000;
+    border-top: 1px solid #dfdfdf;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+span {
+    margin-left: 5px;
+}
+
+
+button {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #4979ff;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    border: 1px solid #4979ff;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid ivory;
+}

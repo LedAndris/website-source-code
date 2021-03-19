@@ -1,0 +1,6 @@
+bump
+/.idea
+/.vscode
+/.next
+/node_modules
+pages/.env
